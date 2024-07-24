@@ -1,0 +1,149 @@
+@import url('https://cdn.syncfusion.com/ej2/material.css');
+
+.sidebar {
+  box-shadow: rgb(113 122 131 / 11%) 0px 7px 30px 0px;
+}
+.nav-item,
+.navbar {
+  z-index: 10000;
+}
+@media  screen and (max-width:800px) {
+  .sidebar{
+    z-index: 10000000;
+  }
+}
+
+.e-dlg-center-center, .e-quick-popup-wrapper.e-device{
+  z-index: 1000000 !important;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(216, 216, 216);
+  border-radius: 40px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* color-picker style  */
+
+ #preview {
+  background: transparent
+    url('https://ej2.syncfusion.com/react/demos/src/color-picker/images/pen.png')
+    no-repeat;
+  display: inline-block;
+  height: 80px;
+  margin: 10px 0;
+  min-width: 300px;
+  max-width: 600px;
+  background-color: #008000;
+}
+
+.e-input-group:not(.e-float-icon-left), .e-input-group.e-success:not(.e-float-icon-left), .e-input-group.e-warning:not(.e-float-icon-left), .e-input-group.e-error:not(.e-float-icon-left), .e-input-group.e-control-wrapper:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-success:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-warning:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-error:not(.e-float-icon-left){
+  border: none;
+}
+
+.voice-recorder {
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+.title {
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.btn-box {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.btn {
+  margin: 0 10px;
+  padding: 8px 16px;
+  color: white;
+  background-color: #272727;
+  border: none;
+  border-radius: 1px;
+}
+/* CSS tùy chỉnh cho nút Sửa */
+.custom-edit-btn {
+  background-color: #4caf50; /* Màu xanh lá cây */
+  color: white; /* Màu chữ trắng */
+  border-color: #4caf50; /* Màu viền */
+}
+.custom-resetmk-btn {
+  background-color: #1e5cb9; /* Màu xanh lá cây */
+  color: white; /* Màu chữ trắng */
+  border-color: #206dd9; /* Màu viền */
+}
+/* CSS tùy chỉnh cho nút Xóa */
+.custom-delete-btn {
+  background-color: #f44336; /* Màu đỏ */
+  color: white; /* Màu chữ trắng */
+  border-color: #f44336; /* Màu viền */
+}
+.app {
+  width: 75vw;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+}
+.parent {
+  height: 30vh;
+  width: 100%;
+  margin: auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 25px;
+  box-shadow: 7px 20px 20px rgb(210, 227, 244);
+  align-items: center;
+}
+.file-upload {
+  height: 22vh;
+  text-align: center;
+  border: 3px dashed rgb(210, 227, 244);
+  padding: 1.5rem;
+  position: relative;
+  cursor: pointer;
+}
+.file-upload p {
+  height: 30vh;
+  font-size: 0.87rem;
+  margin-top: 0px;
+  color: #bbcada;
+}
+.file-upload h3 {
+
+  font-size: 0.93rem;
+  margin-top: -5px;
+  
+}
+.file-upload img {
+  height: 12vh;
+  margin: auto;
+  font-size: 0.90rem;
+  margin-top: 0px;
+  color: #bbcada;
+}
+.file-upload input {
+  height: 20vh;
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  cursor: pointer;
+}
