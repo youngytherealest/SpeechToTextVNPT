@@ -116,7 +116,7 @@
   cursor: pointer;
 }
 .file-upload p {
-  height: 30vh;
+  height: 10vh;
   font-size: 0.87rem;
   margin-top: 0px;
   color: #bbcada;
@@ -146,4 +146,7 @@
   right: 0;
   opacity: 0;
   cursor: pointer;
+}
+.custom-button .e-icons {
+  font-size: 20px; /* Kích thước của biểu tượng */
 }

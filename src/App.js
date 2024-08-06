@@ -9,7 +9,6 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import './App.css';
 import "./style.scss";
-
 import { useStateContext } from './contexts/ContextProvider';
 import { checkValidToken } from './apis/api';
 import { useNavigate } from 'react-router-dom';
